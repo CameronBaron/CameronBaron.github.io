@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Bug after bug after bug after bug..."
+date:   2015-10-25 11:18:00 +1000
+categories: Game Dev
+---
+<p>
+Over the past week, I have been trying to turn our "Grey Box Arena" into something that resembles an actual game that people pay money for. Previously all we had was an arena that loads straight up when you open the game, adding things like a Main Menu and a character selection screen have been my main goals. And it is proving to be harder than I fist imagined.
+</p>
+<p>
+While I didn't think it was going to be the easiest job to do, the character selection screen keeps making me second guess myself. There have been a number of smaller issues that I have managed to work through and solve (eg. Static Input Manager Class, Game Manager OnStateChange loop, controllers sometimes working). Oh and speaking of controllers, the issues we were having last week with the Unity Input Manager, the best solution I could find was to use a third party free asset that handles everything for you. It seems to work perfectly every time, while I would have loved to make something myself to handle this, I just don't have the knowledge of Unity just yet and we only have about 5 weeks left until the end of this assessment!
+</p>
+<p>
+The custom Input Manager I used can be found <a href="https://github.com/daemon3000/InputManager">here</a>. This has made my life so much easier for the time being, maybe some day I will be able to come back to it with my own creation. With this I can map out all the controller inputs for one player and then clone it for however many players there are. We still have no idea what the problem with Unity and controllers is, hopefully it will get fixed soon though.
+</p>
+<p>
+The way I have decided to write the Game Manager and Game States is that each one belongs to a different scene.  I'm sure there are cons to using this setup but I feel it works best with what we are doing. By using this method, currently the character selection screen passes the information (eg. number of players, character selected) to the Game Manager, which when ready, then creates the appropriate players in the game scene. All sound fairly straight forward, but problems always pop up to make things fun! Debugging in Unity and C# can be fairly easy and intuitive, but there are times when you will get an error code that just makes no sense at all.
+</p>
+<p>
+The Input Manager was quiet easy to implement, basically import the asset, drag it onto an empty gameObject, it even has its own GUI to set up whatever controller you want. There are also more settings in the Unity menu bar under TeamUtility. Then all you really need to do is "#include TeamUtility.IO" and instead of using Input.GetInput() you can use InputManager.GetInput(). It includes a huge range of methods used in the Unity Input Manager, plus a few additional ones to make things even easier. I have a feeling as we get closer to the end of our assessment, I may be helping other groups implement this, if they are needing multiple controllers that is.
+</p>

@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "In the beginning!"
+date:   2015-10-12 01:10:00 +1000
+categories: Game Dev
+---
+<p>
+Cameron here, also known by some as Randy because during <a href="https://au.movember.com/" target="_blank">Movember</a> I look a bit like Randy Marsh, and this is the start of a series of blogs about my adventure. This year I decided to go back to school, after a...little break, I have decided to take on the challenge of Programming. More directly, Programming in games. Our current assessment is to create a game in a group over approximately two months in <a href="http://unity3d.com/" target="_blank">Unity</a>.
+</p>
+<p>
+This is my first real attempt in Unity, I have completed a couple of tutorials, but that's about it really. We started the year learning <a href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank">C++</a> and progressed onto <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" target="_blank">C#</a> recently. This gave us a great insight into the inner workings and memory management behind C# and taught us that even though C# is "easier", it may not always be the best option to use.
+</p>
+<p>
+Our group, which we have dubbed "Majestic Prawn Studio", consist of two artists, two designers and two programmers. Everyone seems to be very keen and level-headed so far. I don't think we have been aiming too high with our initial ideas or concepts either. We are going for a "<a href="http://gangbeasts.com/" target="_blank">Gangbeasts</a>" style, twin-stick, local multiplayer, arena-shooter... or something like that. After many hours discussion we have named it "Genepool". (Greybox arena prototype pictured below)
+</p>
+<a href="https://randyhub.files.wordpress.com/2015/10/areana.png"><img class="alignnone size-medium wp-image-3" src="https://randyhub.files.wordpress.com/2015/10/areana.png?w=300" alt="Main Game Arena" width="300" height="149" /></a>
+<p>
+Myself and Eli, the other programmer in our group, have been working very well together. We have managed to split up the work fairly evenly so far, I enjoy working on collision and managers and Eli likes weapons/mechanics and particles.
+</p>
+<p>
+So far I have set up a GameManager to handle the changing of Scene's; currently we have a Main Menu, Character Selection Screen and The Main Game. The Character Select Screen uses four separate cameras for each of the controllers which won't be active until the start button is pressed on the corresponding controller. The camera then moves to view the next character as you scroll through the options (see image below). I did have trouble with moving the camera's initially, because I was using a <a href="http://docs.unity3d.com/ScriptReference/Rigidbody.html" target="_blank">RigidBody</a> to change their transform and I believe there were some floating point errors.
+</p>
+<img class="alignnone size-medium wp-image-4" src="https://randyhub.files.wordpress.com/2015/10/css.png?w=300" alt="Character Select Screen" width="300" height="246" />
+<p>
+The default Unity Input Manager took a while to setup for all four players and there is no keyboard options just yet. After doing a lot of searching online, it looks like the general consensus is that the default Input Manager could use an overhaul. But as we are not supposed to use any third party assets, it will have to do for now. I have tried to make editing the controls easier by adding a <a href="http://docs.unity3d.com/ScriptReference/Serializable.html" target="_blank">Serializable</a> class to the Player class which allows changes to made through the Unity Inspector.
+</p>
+<p>
+This week I am hoping to have the Character Selection Screen working in a build for our second group presentation, once that is good to go I will be making scripts for a pause screen and end screen. Eventually I am looking forward to making some level dynamics (eg. moving walls, traps, etc.).
+</p>
+<p>
+I will be making an update after our presentation this week, fingers crossed they love what we have so far.
+Thanks for reading!
+</p>

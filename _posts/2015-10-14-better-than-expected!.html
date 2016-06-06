@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Better than expected!"
+date:   2015-10-14 21:26:00 +1000
+categories: Game Dev
+---
+<p>
+Yesterday our team had our second official presentation to a group of our teachers and a couple people from the Melbourne gaming scene. in the morning we had the game running fine, it was beautiful and quite a bit of fun to have four people running around burning/shooting each other. And then it happened...
+</p>
+<p>
+Over the past three weeks, I have made use of the painful Unity Input Manager. It has been painful in the sense that it is very long-winded and repetitive, programmers are taught to build around repetition. I had a bit of a look into making my own Input manger to replace Unity's, there are a few different examples and walk-through's that can be found, but still being quite unfamiliar with Unity I thought I'd give it a miss for now.
+</p>
+<p>
+We have really only been testing our game with two controllers at most, up until yesterday, and at first we had no problems. Everything ran smooth, controls worked fine, not the prettiest thing to look at but the gameplay was there. I quit the game and reopened, without changing a single thing! Not one single letter or number! The game loaded up, everything looked fine, as the players try to move their character things get well... a little odd. Player 1 controller now controls the third character's movement but the first character's shooting. Weird right? Player 3 controller now controls the first character's movement but the third's shooting. And Player 2 movement was fine, but could only shoot when player three also shot.
+</p>
+<p>
+This made me pull my hair out for four hours leading up to our presentation. Got the help from one of our teachers, he couldn't understand why it was doing what it was doing. We couldn't even reproduce the bug at will. Sometimes it would work, close and reopen, BAM! controls stuffed!
+</p>
+<p>
+We ended up finding out, that this seems to be a fairly common issue with Unity, many people have had "issues" with this Input Manager for quite some time and Unity are yet to fix it.
+</p>
+<p>
+When it came time to play the demo in our presentation, the first time we ran it, no controller worked. That's ok we were prepared to try a few times, then fake it if we had to. All of a sudden, the Unity gods were kind and allowed the controllers to work normally! No need for a blood sacrifice or anything!
+</p>
+<p>
+Needless to say, the next few weeks will be a mix of fixing general bugs, polishing and going back to the input manager to see if we can spot the problem and hopefully find a fix.
+</p>
