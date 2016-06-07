@@ -1,7 +1,8 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
+order: 100
 ---
 
 As you may have noticed around this site, my name is Cameron Baron from Melbourne Australia and I am currently studying an Advanced Diploma in Programming at [AIE.](http://aie.edu.au)
