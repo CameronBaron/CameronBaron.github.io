@@ -17,10 +17,13 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    color: $white-color;
 
-    &,
+    &:hover {
+        color: $blue-color;
+    }
     &:visited {
-        color: $grey-color-dark;
+        color: $white-color;
     }
 }
 
