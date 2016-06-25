@@ -13,14 +13,14 @@ This is my first real attempt in Unity, I have completed a couple of tutorials, 
 <p>
 Our group, which we have dubbed "Majestic Prawn Studio", consist of two artists, two designers and two programmers. Everyone seems to be very keen and level-headed so far. I don't think we have been aiming too high with our initial ideas or concepts either. We are going for a "<a href="http://gangbeasts.com/" target="_blank">Gangbeasts</a>" style, twin-stick, local multiplayer, arena-shooter... or something like that. After many hours discussion we have named it "Genepool". (Greybox arena prototype pictured below)
 </p>
-<a href="https://randyhub.files.wordpress.com/2015/10/areana.png"><img class="alignnone size-medium wp-image-3" src="https://randyhub.files.wordpress.com/2015/10/areana.png?w=300" alt="Main Game Arena" width="300" height="149" /></a>
+	<img src="/assets/arena.png" alt="Early grey gox arena">
 <p>
 Myself and Eli, the other programmer in our group, have been working very well together. We have managed to split up the work fairly evenly so far, I enjoy working on collision and managers and Eli likes weapons/mechanics and particles.
 </p>
 <p>
 So far I have set up a GameManager to handle the changing of Scene's; currently we have a Main Menu, Character Selection Screen and The Main Game. The Character Select Screen uses four separate cameras for each of the controllers which won't be active until the start button is pressed on the corresponding controller. The camera then moves to view the next character as you scroll through the options (see image below). I did have trouble with moving the camera's initially, because I was using a <a href="http://docs.unity3d.com/ScriptReference/Rigidbody.html" target="_blank">RigidBody</a> to change their transform and I believe there were some floating point errors.
 </p>
-<img class="alignnone size-medium wp-image-4" src="https://randyhub.files.wordpress.com/2015/10/css.png?w=300" alt="Character Select Screen" width="300" height="246" />
+	<img class="ScreenShot" src="/assets/css.png" alt="Early character select screen">
 <p>
 The default Unity Input Manager took a while to setup for all four players and there is no keyboard options just yet. After doing a lot of searching online, it looks like the general consensus is that the default Input Manager could use an overhaul. But as we are not supposed to use any third party assets, it will have to do for now. I have tried to make editing the controls easier by adding a <a href="http://docs.unity3d.com/ScriptReference/Serializable.html" target="_blank">Serializable</a> class to the Player class which allows changes to made through the Unity Inspector.
 </p>
