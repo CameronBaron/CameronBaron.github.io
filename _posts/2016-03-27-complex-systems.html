@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "Complex Systems"
+date:   2016-03-27 00:48:00 +1000
+categories: Game_Dev
+---
+<p>
+Now that we have made basic game engine, our next assignment is to choose a complex system and implement it. The topics suggested are:
+<ul>
+	<li>Threading</li>
+	<li>Cache Coherence</li>
+	<li>GPGPU</li>
+	<li>Behavioural Mathematics</li>
+	<li>Fuzzy Logic</li>
+	<li>Machine Learning</li>
+	<li>Networking</li>
+	<li>Audio</li>
+	<li>Automated Build Systems</li>
+	<li>Analytics</li>
+</ul>
+Initially I was interested in using AI, but I thought I should have a look at some of the others to see if they interest me. Audio grabbed my interest right away. In part to my slight addiction to anything Marvel these days and a Gif I saw on reddit recently (<a href="http://imgur.com/a/VTYoc" target="_blank">Nocturne Heartbeat</a>), I am aiming for something along the lines of a DareDevil-ish interactive scene. Basically the scene will be almost blank, with objects that emit any sound also emit a wave/pulse, which then reveals the objects it interacts with.
+</p>
+
+<p>
+<a href="http://www.fmod.org/" target="_blank">FMOD</a> looks to be the favored audio tool, they are also based in the same building as us, used in a number of AAA Games (World of Warcraft, League of Legends, and more) and GameEngines (eg. Unity and Unreal4).
+</p>
+
+<p>
+<img src="/assets/fmod-engines.png" alt="Engines using FMOD">
+<img src="/assets/fmod-games.png" alt="Games using FMOD">
+</p>
+
+<p>
+The only issue I have had so far is that the only documentation/examples are from FMOD themselves. Their documentation and examples are very good but there are some topics I cannot find much on. So far the main issue I was having was the use of the Geometry engine built into FMOD, although through a lot of trial and error I have managed to get a cube around a sound source. With this geometry, we can control <a href="https://en.wikipedia.org/wiki/Occlusion_effect" target="_blank">occlusion</a> and <a href="https://en.wikipedia.org/wiki/Reverberation" target="_blank">reverberation</a> through floating point values, the aim is to create a second unseen mesh on an object that can stop/slow sound (eg. a wall, glass pane).
+</p>
+
+<p>
+Well all this would be lovely to have, we only have a few more weeks until it is due and I am still trying to fully figure out FMOD. I am having a lot of fun with this already so I am sure I will be able to get plenty done with it.
+</p>
