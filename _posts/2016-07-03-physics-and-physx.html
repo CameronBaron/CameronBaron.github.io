@@ -10,12 +10,13 @@ It has been a little while since my last post so I will split this one up into t
 </p>
 
 <p>
+This assessment was all about Physics. First we had to create our own physics enviroment with realistic (as possible) collisions, gravity and reactions. Very heavily math based, and plenty of tinkering to make things feel "natural". We also needed to create a physics scene using Nvidia's <a href="https://en.wikipedia.org/wiki/PhysX"> PhysX </a> system, much more robust and evolved than our own as it is used world wide to make games like <a href="http://www.geforce.com/hardware/technology/physx/games"> Fallout 4, XCOM 2, The Witcher 3 and most of the latest Batman games </a>.
 The task we were given, was to show and implement a number of demonstrations:
 <ul>
 	<li>Physics</li>
 	<ul>
 		<li>Multiple objects interacting with each other</li>
-		<li>Appropriate use of Newtons 3rd law of motion</li>
+		<li>Appropriate use of <a href="https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion#Newton.27s_third_law">Newtons 3rd law of motion</a></li>
 		<li>Collisions and applied forces</li>
 		<li>An example of spring physics</li>
 	</ul>
@@ -28,4 +29,20 @@ The task we were given, was to show and implement a number of demonstrations:
 		<li>Particle based fluid or soft body simulation</li>
 	</ul>
 </ul>
+</p>
+
+<p>
+Custom physics was a great place to start, because I could learn the inner workings of what and how things work before playing with <a href="https://en.wikipedia.org/wiki/PhysX"> PhysX </a>, and it also took up a lot more time so better to get it knocked over first. The biggest issue I encountered with this was the collision system, it was at times difficult to picture or visualise what was happening in code as it got quite indepth. I spent many hours scribbling and editing code to try to get things to behave realistically. In the end it turned out fairly well, there are a few issues that I can't seem to find an easy solution to. Stacking dynamic items causes them to eventually push through each other because of the way the collision detection and response is handled, it only accounts for one collision at a time and responds straight away (this is were PhysX is an advantage, I'll come back to that later)
+</p>
+
+<p>
+Once the collisions were as good as I could get, without going overboard, I implemented springs and joints. More math using <a href="https://en.wikipedia.org/wiki/Hooke%27s_law"> Hooke's Law (F = -kX)</a> and guesstimation to make things look and feel "natural". This was a lot of fun, the first thing I made with springs was a rope that swung and could be pushed, it was very exciting! The second thing I made was cloth, now this was cool, by just joining a grid of points together with springs, you could make a cloth or fabric like material. 
+</p>
+
+<p>
+PhysX is a very powerful physics engine, much more so than the physics engine I attempted to create. The most difficult part about PhysX was making sure it was all setup in the project properly. Luckily there is a lot of documentation on Nvidia's own site and many forums dedicated to helping and informing. I found the fluid physics the most fun aspect to play with, and as usual you just have to tweak lots of different parameters to adjust the feel and look of the particles to make the type of fluid you want. 
+</p>
+
+<p>
+At the moment the project as a whole isn't anything special, this will change over the next coming months as I improve and polish it to something I can be very proud of, only then will I upload some pictures and videos. For now you will just have to use your imagination.
 </p>
