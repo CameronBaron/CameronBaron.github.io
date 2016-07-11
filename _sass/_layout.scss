@@ -109,11 +109,21 @@
 /**
  * Site footer
  */
+.site-foot {
+    text-align: center;
+    position: relative;
+    font-size: 12px;
+    width: 100%;
+    overflow: hidden;
+    opacity: 0.90;
+    color: black;
+    border-top: 2px solid #30231d;
+}
+
 .site-footer {
     border-top: 1px solid $background-color;
     background: $grey-color-dark;
     background: -webkit-linear-gradient($background-color, $grey-color-dark);
-    padding: $spacing-unit 0;
     bottom: 0;
 }
 
@@ -184,6 +194,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    min-height: 70.8vh;
 }
 
 .page-heading {
