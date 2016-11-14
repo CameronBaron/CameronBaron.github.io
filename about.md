@@ -1,8 +1,7 @@
 ---
 layout: page
-title: About Me
+title: About
 permalink: /about/
-order: 100
 ---
 
 As you may have noticed around this site, my name is Cameron Baron from Melbourne Australia and I am currently studying an Advanced Diploma in Programming at [AIE.](http://aie.edu.au)
@@ -15,3 +14,42 @@ I have completed the Cert 2 Programming course at AIE (basically an intro to thi
 
 As you can probably tell, this is my first attempt at any kind of website. As my knowledge and skills grow, so too will this, the hub for information on your favourite Cameron!
 Any and all feedback/criticism welcome (hopefully positive).
+
+## Education
+
+* ABC degree from XYZ University.
+* ABC degree from XYZ University.
+* ABC degree from XYZ University.
+
+## Roles
+
+Founder, ABC Organisation
+
+## Skills
+
+* **Skill 1** - `Skill` / `Skill` / `Skill` / `Skill`
+* **Skill 2** - `Skill` / `Skill` / `Skill` / `Skill` / `Skill` / `Skill` / `Skill`
+* **Skill 3** - `Skill` / `Skill` / `Skill`
+* **Skill 4** - `Skill` / `Skill` / `Skill` 
+* **Skill 5** - `Skill`
+* **Skill 6** - `Skill` / `Skill` 
+    
+    
+## Achievements
+
+
+* [**This is my first achievement**](#) 
+   
+   Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula.
+
+***
+
+* [**This is my second achievement**](#) 
+
+    Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula.
+
+***
+
+* [**This is my third achievement**](#) 
+
+   Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula
