@@ -19,7 +19,7 @@ html {
 
 body {
   background: $sec-color;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 $titilliumWeb;
   color: darken($sec2-color,5);
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $titilliumWeb;
   color: $darkerGray;
   font-weight: bold;
 
@@ -195,7 +195,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $titilliumWeb;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -214,7 +214,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; 
-  font-family: $helveticaNeue;
+  font-family: $titilliumWeb;
   font-size: 18px;
 
   @include mobile {
@@ -226,13 +226,17 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $sec3-color;
+    color: $sec-color;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
     
     &:hover, &:active {
-      color: darken($navbar-hover-color,20);
+      color: lighten($navbar-hover-color,10);
+    }
+    
+    .selected{
+      color: lighten($navbar-hover-color,10);
     }
 
     @include mobile {

@@ -40,10 +40,12 @@ $avatar: "/assets/pic.jpg";
 
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$raleway: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+//$helvetica: Helvetica, Arial, sans-serif;
+//$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+//$raleway: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+//$georgia: Georgia, serif;
+$titilliumWeb: 'Titillium Web', sans-serif;
+$hammersmithOne: 'Hammersmith One', sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {

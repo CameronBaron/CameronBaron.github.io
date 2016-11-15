@@ -17,39 +17,38 @@ Any and all feedback/criticism welcome (hopefully positive).
 
 ## Education
 
-* ABC degree from XYZ University.
-* ABC degree from XYZ University.
-* ABC degree from XYZ University.
+### Academy of Interactive Entertainment, Melbourne, Australia (2015 - 2016)
+* Advanced Diploma of Professional Game Development (Programming)
+
+### Academy of Interactive Entertainment, Melbourne, Australia (2014)
+* Certificate II in Information, Digital Media & Technology, ICA20111
 
 ## Roles
 
-Founder, ABC Organisation
-
-## Skills
-
-* **Skill 1** - `Skill` / `Skill` / `Skill` / `Skill`
-* **Skill 2** - `Skill` / `Skill` / `Skill` / `Skill` / `Skill` / `Skill` / `Skill`
-* **Skill 3** - `Skill` / `Skill` / `Skill`
-* **Skill 4** - `Skill` / `Skill` / `Skill` 
-* **Skill 5** - `Skill`
-* **Skill 6** - `Skill` / `Skill` 
-    
-    
-## Achievements
-
-
-* [**This is my first achievement**](#) 
-   
-   Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula.
+Programmer, Firelight Technologies, Melbourne, Australia (2016 - current)
 
 ***
 
-* [**This is my second achievement**](#) 
-
-    Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula.
+Programmer (Internship), Firelight Technologies, Melbourne, Australia (July 2016 - Nov 2016)
 
 ***
 
-* [**This is my third achievement**](#) 
+Spare Parts Sales Representative, Whitehorse Truck Centre, Dandenong, Australia (2013 - 2016)
 
-   Proin pellentesque malesuada mauris, quis aliquam augue vestibulum ac. Vestibulum ut feugiat nibh. Sed faucibus felis purus, sed convallis leo dictum vehicula
+***
+
+Spare Parts Sales Representative, Westco Truck Sales, Townsville, Australia (2012 - 2009)
+
+***
+
+
+## Technical Skills
+
+* **Programming** - `C#` / `C++` / `CSS` / `Html` / `JavaScript`
+* **Engines** - `Unity` / `Unreal Engine`
+* **Source Control** - `Perforce` / `Git` / `Sourcetree`
+* **Platforms** - `Windows` / `Mac` / `Android` / `Xbox One` / `PS4` / `Vive` / `Oculus`
+* **Tools** - `Visual Studio` / `Monodevelop` / `FMOD Studio` / `FMOD Unity/UE4 Integration`
+
+
+### Cover letter and references are available upon request.
