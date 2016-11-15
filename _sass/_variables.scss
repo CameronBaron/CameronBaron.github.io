@@ -22,9 +22,9 @@ $mono-color:#00293C;                // main theme color(header, links, footer ic
 $sec-color: #1E656D;
 $sec2-color: #F1F3CE;
 $sec3-color: #F62A00;
-$hl-color: $sec3-color;              // header link color (author name and posted on date) for blog post meta 
+$hl-color: $mono-color;              // header link color (author name and posted on date) for blog post meta 
 $navbar-hover-color:$sec3-color;   // navbar hover color (site name and navbar links hover color)
-$link-color: $sec3-color;        // normal hyperlink color other than the ones above.
+$link-color: $mono-color;        // normal hyperlink color other than the ones above.
 
 
 // Heading colors

@@ -76,7 +76,7 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: darken($link-color,20);
+      color: lighten($navbar-hover-color,10);
   }
 }
 
@@ -251,13 +251,34 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $sec2-color;
+  border-style: inset;
+  border: 5px groove $sec-color;
+
+  &:hover{
+    background-size: cover; 
+    color: lighten($sec2-color, $amount: 10);
+  }
 }
 
 .posts > .post:last-child {
   padding-bottom: 1em;
-  border-bottom: none;
+}
+
+.backgroundImage {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  
+  &:hover{
+    background:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  }
+}
+
+.entry {
+  height: 200px;
+  margin-bottom: 10px;
+  overflow: hidden;
+
 }
 
 .post {
