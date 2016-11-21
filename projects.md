@@ -24,10 +24,18 @@ Visual Studio C++ OpenGL GameEngine with FMOD Low Level API made for a school as
 This project was a lot of fun! As it was my first time playing with audio every step felt like a great accomplishment.
 I also used this as part of my application for an internship at FMOD (that I got!).
 
+In this demo are 5 open-face boxes (rooms) that each contain their own sound and data.
+Using FMOD's built in geometry system, it was fairly easy to setup custom occlusion on the room walls by using the same data that the graphics used to draw it.
+This added some realism to project and gave the occlusion objects some 'weight' in the world.
+
+Another cool feature I added was a dynamic audio visualiser on the back face of each of the 'rooms', using the FFT data live from each of the playing songs.
+
 ***
 
 ### [Physics & PhysX](https://github.com/CameronBaron/PhysicsEngine)
 C++ physics engine made using Nvidia PhysX and Custom Physics seperatly.
+
+
 
 ***
 
