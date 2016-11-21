@@ -5,7 +5,17 @@ permalink: /projects/
 ---
 
 ### [FMOD Unity Demo](https://github.com/CameronBaron/AIE-FMOD-Student-Project) 
-FMOD Unity Integration Demo
+FMOD Unity Integration Demo created as part of an internship at FMOD in Melbourne, which was also used as our final assessment project. 
+FMOD is an audio middleware company with their main tool, FMOD Studio, aimed at Sound Engineers/Designers. This tool can integrate with Unity and Unreal Engine to futher enhance your games sound.
+The target audience of the demo is any developer that hasn't used FMOD with Unity before. With a large focus on teaching basic techniques and ideas, we too learnt a lot about using the FMOD Unity Integration.
+
+Our concept was to break down a number of key basics, seperatly as to not distract the user, display an example of its implementation and try to explain what is happening.
+So we designed individual rooms (Unity scenes) as a way of seperating the topics, not only with demo/gameplay in mind, for developers working in the Unity Editor to better navigate.
+
+As you enter the scene you are greeted by the control display screen, once the mouse button is pressed, an elevator takes you up to the main hub (the Overworld).
+From this multi-leveled scene, you can access any room either by walking to it or by teleporting from the Pause Menu.
+
+I would highly encourage anyone that has not used audio middleware with Unity to give it a go, it is quite easy to setup and can turn a good game into an amazing experience. 
 
 ***
 
