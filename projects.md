@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 ### [FMOD Unity Demo](https://github.com/CameronBaron/AIE-FMOD-Student-Project) 
-FMOD Unity Integration Demo created as part of an internship at FMOD in Melbourne, which was also used as our final assessment project. 
+FMOD Unity Integration Demo created as part of a group internship at FMOD in Melbourne, made up of 1 artist, 1 designer and 2 programmers, which was also used as our final assessment project. 
 FMOD is an audio middleware company with their main tool, FMOD Studio, aimed at Sound Engineers/Designers. This tool can integrate with Unity and Unreal Engine to futher enhance your games sound.
 The target audience of the demo is any developer that hasn't used FMOD with Unity before. With a large focus on teaching basic techniques and ideas, we too learnt a lot about using the FMOD Unity Integration.
 
@@ -35,12 +35,13 @@ Another cool feature I added was a dynamic audio visualiser on the back face of 
 ### [Physics & PhysX](https://github.com/CameronBaron/PhysicsEngine)
 C++ physics engine made using Nvidia PhysX and Custom Physics seperatly.
 
-
+This project shows some of the differences between the two physics engines, while PhysX may seem like the best option as it can already do pretty much everything for you, if you only require a small light-weight physics engine you may be better off making your own.
 
 ***
 
 ### [Genepool](https://github.com/CameronBaron/GenepoolGame)
 At the end of 2015, a group of 6 people (2 programmers, 2 artists, 2 designers) were given 3 months to make a game of our choice. 
-We decided to make a local multiplayer, twin-stick shooter and I am very impressed with how it turned out.
+We decided to make a local multiplayer, top-down, twin-stick shooter and I am very impressed with how it turned out.
 
+The final project ended up having one game option, free-for-all, that pit you against up to 3 other players (and some annoying AI) to score the most kills in the time limit. Each player has 4 weapons they can switch between at any time, assault rifle, shotgun, flamethrower and rocket launcher. Some are a little more over-powered than others.
 ***
